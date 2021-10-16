@@ -23,7 +23,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Header />
+        <Header currentUser={this.state.currentUser} />
         <Switch>
           <Route path='/' exact component={HomePage} />
           <Route path='/shops' exact component={ShopPage} />
