@@ -22,7 +22,6 @@ class SignIn extends React.Component {
                 email: '',
                 password: ''
             })
-            console.log(user);
         } catch (error) {
             console.error(error)
         }
