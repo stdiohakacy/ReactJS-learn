@@ -43,7 +43,7 @@ class App extends Component {
         <Header />
         <Switch>
           <Route path='/' exact component={HomePage} />
-          <Route path='/shops' exact component={ShopPage} />
+          <Route path='/shops' component={ShopPage} />
           <Route path='/checkout' exact component={CheckoutPage} />
           <Route 
             exact 
