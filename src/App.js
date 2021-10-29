@@ -11,7 +11,7 @@ import { connect } from "react-redux";
 import { createStructuredSelector } from "reselect";
 import { selectCurrentUser } from "./redux/user/user.selectors";
 import CheckoutPage from "./pages/checkout/checkout.components";
-import { selectCollectionsForPreview } from "./redux/shop/shop.selector";
+import { selectCollectionsForPreview } from "./redux/shop/shop.selectors";
 
 class App extends Component {
   unsubscribeFromAuth = null;
